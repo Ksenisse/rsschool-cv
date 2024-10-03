@@ -1,0 +1,1 @@
+https://github.com/Ksenisse/rsschool-cv/tree/gh-pages/rsschool-cv
