@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <nav>
-            <p>Education</p>
-            <p>Career</p>
-            <p>Skills</p>
-            <p>Contacts</p>
+            <table class="menu">
+            <tr><a href="#Education">Education</a></tr>
+            <tr><a href="#Career">Work experience</a></tr>
+            <tr><a href="#Skills">Skills</a></tr>
+            <tr><a href="#Contacts">Contacts</a></tr>
+            </table>
         </nav>
         <img src="my photo.JPG" alt="my photo" width="250px" title="me">
         <h2>Vorobyova Kseniya</h2>
         <ul>
-            <li>21 y.o</li>
+            <li>22 y.o</li>
             <li>Minsk, Belarus</li>
         </ul>
     </header>
+    <aside>
+        <p>стрелочка</p>
+    </aside>
     <main>
         <div id="Education">
             <h2>Education</h2>
@@ -29,13 +35,13 @@
             <p>Degree: Specialist in Socio-Cultural Activity Organization with Knowledge of Two Foreign Languages</p>
             <ul>
                 <li>Specialized in organizing cultural and social events, promoting intercultural communication, and working with diverse communities.</li>
-                <li>Gained proficiency in English and French, focusing on z application in socio-cultural contexts.</li>
+                <li>Gained proficiency in English(B1) and French(A1), focusing on z application in socio-cultural contexts.</li>
             </ul>
             <h3>HTML & CSS Courses</h3>
             <h3>2024</h3>
             <p>Completed training in HTML and CSS, gaining skills in basic web development, including responsive design and website layout creation.</p>
         </div>
-        <div class="Work">
+        <div id="Career">
             <h3>Work Experience</h3>
             <h4>Travel Agency "Tsentrkurort"</h4>
             <h4>Ticketing Specialist (2021 – 2023)</h4>
@@ -53,6 +59,50 @@
                 <li>Assist clients in selecting convenient class schedules, focusing on personalized service and customer satisfaction.</li>
             </ul>
         </div>
+        <div id="Skills">
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Communication: Collaborated with cross-functional teams, effectively conveying technical information to non-technical stakeholders.</li>
+                <li>Problem-Solving: Implemented new processes to address complex technical issues, reducing resolution time by 20%.</li>
+                <li>Adaptability: Quickly adapt to new work methodologies and actively learn new technologies to improve processes.</li>
+                <li>Time Management: Optimized workflows, successfully managing multiple projects simultaneously while consistently meeting deadlines.</li>
+            </ul>
+            <h3>Hard Slills</h3>
+            <p>The example of my code:</p>
+            <pre>
+            <code>
+                &lt;header&gt;
+                &lt;nav&gt;
+                    &lt;table&gt;
+                        &lt;tr&gt;Education&lt;/tr&gt;
+                        &lt;tr&gt;Career&lt;/tr&gt;
+                        &lt;tr&gt;Skills&lt;/tr&gt;
+                        &lt;tr&gt;Contacts&lt;/tr&gt;
+                    &lt;/table&gt;
+                &lt;/nav&gt;
+                &lt;img src="my photo.JPG" alt="my photo" width="250px" title="me"&gt;
+                &lt;h2&gt;Vorobyova Kseniya&lt;/h2&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;21 y.o&lt;/li&gt;
+                    &lt;li&gt;Minsk, Belarus&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;/header&gt;
+            </code>
+            </pre>
+        </div>
+        <div id="Contacts">
+            <h3>Contact me</h3>
+            <p><a href="https://t.me/ksenisse">Telegram</a></p>
+            <p><a href="mailto:ksenisse@yandex.by">E-mail</a></p>
+            <p><a href="tel:+375259307011">Phone</a></p>
+        </div>
     </main>
+    <footer>
+        <a href="https://rs.school/courses/javascript-ru">
+        <img src="rs-school-logo.svg" alt="logo" width="100px" title="school">
+        </a>
+        <p>2024 Vorobyova Kseniya. All rights reserved.</p>
+        <a href="https://github.com/Ksenisse">My GitHub</a>
+    </footer>
 </body>
 </html>
